@@ -7,6 +7,6 @@ puts 'Как Вас зовут?'
 first_name = gets.chomp.capitalize
 puts 'Какое Ваше отчество?'
 middle_name = gets.chomp.capitalize
-puts 'What is your surname?'
+puts 'Какая Ваша фамилия?'
 last_name = gets.chomp.capitalize
 puts "Привет, #{first_name} #{middle_name} #{last_name}"
